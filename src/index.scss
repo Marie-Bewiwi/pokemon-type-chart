@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.Block {
+  border: 1px solid black;
+  padding: 5px 10px;
+
+  &-Element {
+    border: 1px solid red;
+    margin: 20px;
+  }
+}
