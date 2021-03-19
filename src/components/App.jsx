@@ -1,6 +1,14 @@
+import 'src/index.scss'
+
+import Header from 'src/components/Header.jsx'
+import Search from 'src/components/Search.jsx'
+
 const App = () => {
   return (
-    <h1>Hey REACT</h1>
+    <>
+      <Header />
+      <Search />
+    </>
   )
 }
 
