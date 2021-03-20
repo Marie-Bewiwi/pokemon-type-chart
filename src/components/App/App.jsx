@@ -40,15 +40,15 @@ class App extends Component {
 }
 
 function getTypes() {
-  return fetch('/data/types.json').then((response) => response.json())
+  return fetch('./data/types.json').then((response) => response.json())
 }
 
 function getPokemonTypes() {
-  return fetch('/data/pokemon-types.json').then((response) => response.json())
+  return fetch('./data/pokemon-types.json').then((response) => response.json())
 }
 
 function getAttackTypes() {
-  return fetch('/data/attack-types.json').then((response) => response.json())
+  return fetch('./data/attack-types.json').then((response) => response.json())
 }
 
 export default App
