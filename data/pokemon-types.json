@@ -8,24 +8,24 @@
   "combat": {
     "name": "combat",
     "immunes": [],
-    "strengths": ["roche", "insecte", "ténèbre"],
-    "weaknesses": ["vol", "psy", "fée"]
+    "strengths": ["roche", "insecte", "tenebre"],
+    "weaknesses": ["vol", "psy", "fee"]
   },
   "vol": {
     "name": "vol",
     "immunes": ["sol"],
     "strengths": ["combat", "insecte", "plante"],
-    "weaknesses": ["roche", "électric", "glace"]
+    "weaknesses": ["roche", "electric", "glace"]
   },
   "poison": {
     "name": "poison",
     "immunes": [],
-    "strengths": ["combat", "poison", "insecte", "plante", "fée"],
+    "strengths": ["combat", "poison", "insecte", "plante", "fee"],
     "weaknesses": ["sol", "psy"]
   },
   "sol": {
     "name": "sol",
-    "immunes": ["électric"],
+    "immunes": ["electric"],
     "strengths": ["poison", "roche"],
     "weaknesses": ["eau", "plante", "glace"]
   },
@@ -45,43 +45,43 @@
     "name": "spectre",
     "immunes": ["normal", "combat"],
     "strengths": ["poison", "insecte"],
-    "weaknesses": ["spectre", "ténèbre"]
+    "weaknesses": ["spectre", "tenebre"]
   },
   "acier": {
     "name": "acier",
     "immunes": ["poison"],
-    "strengths": ["normal", "vol", "roche", "insecte", "acier", "plante", "psy", "glace", "dragon", "fée"],
+    "strengths": ["normal", "vol", "roche", "insecte", "acier", "plante", "psy", "glace", "dragon", "fee"],
     "weaknesses": ["combat", "sol", "feu"]
   },
   "feu": {
     "name": "feu",
     "immunes": [],
-    "strengths": ["insecte", "acier", "feu", "plante", "glace", "fée"],
+    "strengths": ["insecte", "acier", "feu", "plante", "glace", "fee"],
     "weaknesses": ["sol", "roche", "eau"]
   },
   "eau": {
     "name": "eau",
     "immunes": [],
     "strengths": ["acier", "feu", "eau", "glace"],
-    "weaknesses": ["plante", "électric"]
+    "weaknesses": ["plante", "electric"]
   },
   "plante": {
     "name": "plante",
     "immunes": [],
-    "strengths": ["sol", "eau", "plante", "électric"],
+    "strengths": ["sol", "eau", "plante", "electric"],
     "weaknesses": ["vol", "poison", "insecte", "feu", "glace"]
   },
-  "électric": {
-    "name": "électric",
+  "electric": {
+    "name": "electric",
     "immunes": [],
-    "strengths": ["vol", "acier", "électric"],
+    "strengths": ["vol", "acier", "electric"],
     "weaknesses": ["sol"]
   },
   "psy": {
     "name": "psy",
     "immunes": [],
     "strengths": ["combat", "psy"],
-    "weaknesses": ["insecte", "spectre", "ténèbre"]
+    "weaknesses": ["insecte", "spectre", "tenebre"]
   },
   "glace": {
     "name": "glace",
@@ -92,19 +92,19 @@
   "dragon": {
     "name": "dragon",
     "immunes": [],
-    "strengths": ["feu", "eau", "plante", "électric"],
-    "weaknesses": ["glace", "dragon", "fée"]
+    "strengths": ["feu", "eau", "plante", "electric"],
+    "weaknesses": ["glace", "dragon", "fee"]
   },
-  "ténèbre": {
-    "name": "ténèbre",
+  "tenebre": {
+    "name": "tenebre",
     "immunes": ["psy"],
-    "strengths": ["spectre", "ténèbre"],
-    "weaknesses": ["combat", "insecte", "fée"]
+    "strengths": ["spectre", "tenebre"],
+    "weaknesses": ["combat", "insecte", "fee"]
   },
-  "fée": {
-    "name": "fée",
+  "fee": {
+    "name": "fee",
     "immunes": ["dragon"],
-    "strengths": ["combat", "insecte", "ténèbre"],
+    "strengths": ["combat", "insecte", "tenebre"],
     "weaknesses": ["poison", "acier"]
   }
 }
