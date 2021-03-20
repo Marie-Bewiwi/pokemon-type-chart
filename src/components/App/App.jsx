@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   searchType(event) {
-    const type = event.target.value.toLowerCase()
+    const type = sanitize(event.target.value)
     if (this.state.types.includes(type)) {
       this.setState({ type })
     }
@@ -49,6 +49,10 @@ function getPokemonTypes() {
 
 function getAttackTypes() {
   return fetch('./data/attack-types.json').then((response) => response.json())
+}
+
+function sanitize(str) {
+  return str.toLowerCase().replaceAll(/(é|è)/g, 'e')
 }
 
 export default App
