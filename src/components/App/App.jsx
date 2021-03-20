@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <>
         <header className="Header">
-          <h1>Pokéhelp!</h1>
+          <h1>Pokéhelp! (v1.0.1)</h1>
         </header>
         <main className="Search">
           <input type="text" onChange={this.searchType} />
