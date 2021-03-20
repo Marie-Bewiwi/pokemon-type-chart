@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   searchType(event) {
-    const type = event.target.value
+    const type = event.target.value.toLowerCase()
     if (this.state.types.includes(type)) {
       this.setState({ type })
     }
